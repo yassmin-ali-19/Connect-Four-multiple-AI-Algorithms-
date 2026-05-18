@@ -50,6 +50,7 @@ Connect Four is a two-player connection game where players take turns dropping c
 The AI evaluates board positions using a weighted scoring system:
 
 |Feature	|AI Value	|Player Value|
+|-----------|-----------|------------|
 |Center column control	|+3 per disc|- |
 |2-in-a-row windows	+2|	|-2|
 |3-in-a-row windows	+6	|-8|
