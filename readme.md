@@ -1,4 +1,4 @@
-# **🧮Connect Four AI - README**
+# **🧮Connect Four AI**
 **Overview**
 This is a Connect Four game implementation with multiple AI opponents using different search algorithms. The game features a graphical user interface built with Pygame, allowing players to compete against AI agents that use various decision-making strategies.
 
@@ -55,10 +55,11 @@ The AI evaluates board positions using a weighted scoring system:
 |3-in-a-row windows	+6	|-8|
 |4-in-a-row windows (win)	|+100	|-120|
 |Potential windows (no opponent)|	+1 each	|-1 each|
-
-```
+-----
 ### File Structure
+```
 connect-four-ai/
 ├── game.py           # Core game logic, board operations, win detection
 ├── ai.py             # AI algorithms, heuristic evaluation, move ordering
 └── gui_pygame.py     # Pygame GUI, event handling, visualization
+```
